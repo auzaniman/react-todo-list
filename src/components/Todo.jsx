@@ -1,5 +1,5 @@
 import React from 'react';
-import PropType from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Todo = (props) => {
   return (
@@ -10,7 +10,7 @@ const Todo = (props) => {
 };
 
 Todo.propTypes = {
-  text: PropType.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default Todo;
